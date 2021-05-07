@@ -12,7 +12,6 @@
   },
   "author": "Dulat Omarov",
   "license": "ISC",
- 
   "bugs": {
     "url": "https://github.com/Dulatto/build-sandbox/issues"
   },
@@ -24,7 +23,8 @@
     "@babel/plugin-transform-classes": "^7.13.0",
     "@babel/plugin-transform-template-literals": "^7.13.0",
     "@babel/preset-env": "^7.14.1"
+  },
+  "dependencies": {
+    "core-js": "^3.12.0"
   }
 }
-
-

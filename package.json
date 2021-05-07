@@ -12,6 +12,7 @@
   },
   "author": "Dulat Omarov",
   "license": "ISC",
+ 
   "bugs": {
     "url": "https://github.com/Dulatto/build-sandbox/issues"
   },
@@ -25,3 +26,5 @@
     "@babel/preset-env": "^7.14.1"
   }
 }
+
+

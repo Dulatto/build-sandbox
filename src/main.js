@@ -1,14 +1,23 @@
+import React from 'react';
+import ReactDom from 'react-dom';
 
-class App {
+const App = () => <p>Hello</p>
 
-    run = async (name = 'World') => {
-        console.log(`Hello ${name}`);
-        console.log([1, 2, [2, 3]].flat());
-    };
-}
+ReactDom.render(<App />, document.getElementById('root'));
 
 
-const app = new App();
-app.run()
-    .then(() => console.log('done'))
-    .catch(() => console.log('Error'));
+
+
+// class App {
+
+//     run = async (name = 'World') => {
+//         console.log(`Hello ${name}`);
+//         console.log([1, 2, [2, 3]].flat());
+//     };
+// }
+
+
+// const app = new App();
+// app.run()
+//     .then(() => console.log('done'))
+//     .catch(() => console.log('Error'));
